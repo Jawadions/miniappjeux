@@ -1,0 +1,37 @@
+{
+  "name": "testtechnique",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "TestFront": "npm start --prefix TestFront",
+    "courzeloinstall": "npm install --prefix TestFront",
+    "dev": "concurrently \"npm run server\" \"npm run TestFront\""
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "gender-api-client": "^1.1.2",
+    "gender-api.com-client": "^1.0.14",
+    "googleapis": "^61.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.15",
+    "node-fetch": "^2.6.1",
+    "react-scripts": "^4.0.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss7-compat": "^2.0.4",
+    "autoprefixer": "^9.8.6",
+    "concurrently": "^6.0.0",
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.7",
+    "postcss": "^7.0.35",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
